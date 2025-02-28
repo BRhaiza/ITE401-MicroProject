@@ -1,0 +1,71 @@
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsla(130, 88%, 19%, 0.166);
+    border: 1px solid #006303;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #00ac094a;
+    border: 1px solid #067300;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.chat-message {
+    padding: 5px;
+    color: #0e3a11;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #00460482;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#message-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #064a003a;
+    border-radius: 5px;
+    font-size: 14px;
+}
+h1{
+    color: #1c3f1d;
+    border: 2px solid rgba(7, 81, 7, 0.418);
+    border-radius: 5px;
+    background-color: #00d60e27;
+    width: 200px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+button {
+    width: 15%;
+    padding: 8px;
+    background-color: #0e3a11;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+body{
+    background-image: url(frog2.webp);
+    padding-top: 150px;
+}

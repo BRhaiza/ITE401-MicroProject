@@ -1,0 +1,26 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 81, 28);
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.mamamo{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.papamo{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
